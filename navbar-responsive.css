@@ -1,0 +1,136 @@
+/*************************************************************
+Responsive CSS starts here...
+**************************************************************/
+
+@media (max-width: 1199px) {
+  .nav-bar .nav-links.login-link {
+    border-top: none;
+    margin-top: 0;
+  }
+  .nav-links.login-link li a {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 1150px) {
+  nav .nav-bar .sidebarOpen {
+    display: block;
+  }
+
+  .nav-links li .link1:hover .border-bottom {
+    left: 16px;
+  }
+
+  .nav-links li .link3:hover .border-bottom {
+    left: 17px;
+  }
+
+  .nav-links li .link4:hover .border-bottom {
+    left: 17px;
+  }
+
+  .menu {
+    position: fixed;
+    height: 100%;
+    width: 320px;
+    left: -100%;
+    top: 0;
+    padding: 20px;
+    background-color: var(--side-nav);
+    z-index: 100;
+    transition: all 0.4s ease;
+  }
+
+  nav.active .menu {
+    left: -0%;
+  }
+
+  nav.active .nav-bar .navLogo a {
+    opacity: 0;
+    transition: all 0.3s ease;
+  }
+
+  .menu .logo-toggle {
+    display: block;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo-toggle .siderbarClose {
+    color: var(--text-color);
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  .nav-bar .nav-links {
+    flex-direction: column;
+    padding-top: 30px;
+  }
+
+  .nav-links li a {
+    display: block;
+    margin-top: 20px;
+  }
+
+  nav {
+    padding-left: 0;
+  }
+
+  nav .nav-bar {
+    width: 100%;
+    padding: 10px 15px;
+  }
+
+  nav.active .menu {
+    flex-direction: column;
+  }
+  .nav-bar .nav-links {
+    align-items: flex-start;
+  }
+  .nav-bar .nav-links {
+    padding-top: 0;
+    border-top: 1px solid #fff;
+    margin-top: 20px;
+  }
+
+  /* footer responsive */
+  .footer {
+    background-color: #000;
+    padding: 0 30px;
+    padding-top: 50px;
+    padding-bottom: 35px;
+  }
+}
+
+@media (max-width: 576px) {
+  .nav-bar .nav-links.login-link {
+    display: none;
+  }
+  .nav-links li a.login-link-mobile {
+    display: inline-block !important;
+    padding: 8px 20px;
+    margin-left: 14px;
+  }
+}
+
+@media (max-width: 450px) {
+  nav .nav-bar .navLogo {
+    padding-right: 40px;
+  }
+  .searchBox .search-field {
+    right: 0;
+  }
+  .search-field::before {
+    right: 23px;
+  }
+  .darkLight-searchBox .searchToggle {
+    margin: 0;
+    margin-right: 10px;
+  }
+}
+
+/*************************************************************
+Responsive CSS ends here...
+**************************************************************/

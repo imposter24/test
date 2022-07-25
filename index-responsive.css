@@ -1,0 +1,222 @@
+/* ***************************************
+******************************************1270 */
+
+@media (max-width: 1270px) {
+  .banner-text h1 {
+    font-size: 70px;
+  }
+}
+/* ***************************************
+******************************************1199 */
+
+@media (max-width: 1199px) {
+  .banner-text h1 {
+    padding-top: 120px;
+    font-size: 60px;
+  }
+  .services-heading.text-center svg {
+    margin-bottom: 40px !important;
+  }
+  .our-mission .our-mission-heading .our-mission-title {
+    font-size: 30px;
+    padding-bottom: 0px;
+  }
+  .our-mission .our-mission-text {
+    max-width: none;
+    transform: none;
+    font-size: 22px;
+  }
+
+  .our-mission {
+    padding-bottom: 70px;
+  }
+  .seva {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .seva .seva-heading .seva-title {
+    font-size: 30px;
+    padding-bottom: 0px;
+  }
+  .seva .seva-text {
+    max-width: none;
+    transform: none;
+    font-size: 22px;
+  }
+  .indus-cares .indus-cares-text {
+    max-width: none;
+    transform: none;
+    font-size: 22px;
+  }
+  .seva .seva-btn-container .seva-btn {
+    margin-top: 50px;
+    margin-bottom: 0;
+  }
+  .indus-cares .indus-cares-heading .indus-cares-title {
+    font-size: 30px;
+    padding-bottom: 15px;
+  }
+  .indus-cares .indus-cares-text {
+    max-width: none;
+    transform: none;
+    font-size: 22px;
+  }
+  .indus-cares {
+    padding-bottom: 80px;
+  }
+  .sandesh {
+    padding-top: 70px;
+  }
+  .sandesh .sandesh-heading .sandesh-title {
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+  .sandesh .sandesh-text {
+    max-width: none;
+    transform: none;
+    font-size: 22px;
+    padding-bottom: 50px;
+  }
+  .sandesh-btn-container {
+    padding-bottom: 0;
+  }
+  .indus-edu .indus-edu-text {
+    padding-top: 30px;
+    max-width: none;
+    transform: none;
+    font-size: 22px;
+  }
+  .indus-edu .indus-edu-heading .indus-edu-title {
+    font-size: 30px;
+    padding-bottom: 35px;
+  }
+  .indus-edu {
+    padding-bottom: 100px;
+  }
+}
+
+/* ***************************************
+******************************************991 */
+
+@media (max-width: 991px) {
+  .banner-text h1 {
+    padding-top: 90px;
+    font-size: 45px;
+  }
+  .banner {
+    height: 90vh;
+  }
+  .our-mission .our-mission-heading .our-mission-title {
+    font-size: 25px;
+  }
+  .our-mission .our-mission-text {
+    font-size: 20px;
+  }
+  .seva .seva-heading .seva-title {
+    font-size: 25px;
+  }
+  .seva .seva-text {
+    font-size: 20px;
+  }
+  .indus-cares .indus-cares-text {
+    font-size: 20px;
+  }
+  .seva .seva-learn-more .btn-custom {
+    margin-top: 40px;
+  }
+  .indus-cares .indus-cares-heading .indus-cares-title {
+    font-size: 25px;
+  }
+  .indus-cares .indus-cares-text {
+    font-size: 20px;
+  }
+  .indus-cares-articles-container .indus-cares-article-box {
+    width: 300px;
+  }
+  .indus-cares-articles-container
+    .indus-cares-article-box
+    .indus-cares-article-text
+    .indus-cares-article-title {
+    font-size: 18px;
+  }
+  .indus-cares {
+    padding-bottom: 70px;
+  }
+  .sandesh .sandesh-heading .sandesh-title {
+    font-size: 25px;
+  }
+
+  .indus-edu .indus-edu-heading .indus-edu-title {
+    font-size: 25px;
+    padding-bottom: 15px;
+  }
+  .indus-edu .indus-edu-text {
+    font-size: 18px;
+  }
+}
+
+/* ***************************************
+******************************************767 */
+
+@media (max-width: 767px) {
+  .banner-text h1 {
+    font-size: 34px;
+    font-weight: bold;
+  }
+  .banner-btn a {
+    width: 120px;
+  }
+  .indus-cares-articles-container .indus-cares-article-box {
+    width: 238px;
+    margin: 20px 10px;
+  }
+  .indus-cares-articles-container
+    .indus-cares-article-box
+    .indus-cares-article-text {
+    padding: 20px;
+  }
+}
+
+/* ***************************************
+******************************************576 */
+
+@media (max-width: 576px) {
+  .banner-btn {
+    margin-top: 40px;
+  }
+  .banner-btn a {
+    width: 147px;
+    margin-bottom: 20px;
+  }
+  .our-mission .our-mission-heading .our-mission-title {
+    font-size: 22px;
+  }
+  .our-mission .our-mission-text {
+    font-size: 17px;
+  }
+  .seva .seva-heading .seva-title {
+    font-size: 22px;
+  }
+  .seva .seva-text {
+    font-size: 17px;
+  }
+  .indus-cares .indus-cares-text {
+    font-size: 17px;
+  }
+  .indus-cares .indus-cares-heading .indus-cares-title {
+    font-size: 22px;
+  }
+  .indus-cares .indus-cares-text {
+    font-size: 17px;
+    padding-top: 20px;
+  }
+  .sandesh .sandesh-text {
+    font-size: 14px;
+  }
+  .indus-cares-articles-container .indus-cares-article-box {
+    width: 300px;
+  }
+  .indus-edu .indus-edu-text {
+    font-size: 16px;
+  }
+}
