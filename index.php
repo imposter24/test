@@ -5,10 +5,10 @@
     <link rel="stylesheet" href="vender/css/all.css" />
     <link rel="stylesheet" href="vender/css/bootstrap.min.css" />
     <link rel="stylesheet" href="vender/css/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="css/index.css" />
-    <link rel="stylesheet" href="css/index-responsive.css" />
-    <link rel="stylesheet" href="css/navbar-responsive.css" />
-    <link rel="stylesheet" href="css/footer-responsive.css" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="index-responsive.css" />
+    <link rel="stylesheet" href="navbar-responsive.css" />
+    <link rel="stylesheet" href="footer-responsive.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
